@@ -1,0 +1,5 @@
+## Construtor:
+
+Construtores são usados ​​para inicializar um objeto.
+Construtores são funções de membro especiais que são invocadas ou chamadas automaticamente quando um objeto da classe é criado.
+O construtor tem o mesmo nome que o nome da classe e não tem um tipo de retorno.

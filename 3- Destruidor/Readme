@@ -1,0 +1,19 @@
+## Destruidor:
+
+Um destruidor é uma função membro especial dentro de uma classe que é chamada automaticamente quando um objeto sai do escopo ou é explicitamente excluído.
+
+
+Os destruidores têm o mesmo nome que o nome da classe dessa forma (~class_name).
+
+
+Destruidores não têm tipo de retorno nem parâmetros de entrada.
+
+## Objetivo dos Destruidores:
+
+Desalocação de recursos: libere recursos adquiridos durante a vida útil do objeto (como memória, identificadores de arquivo, conexões de banco de dados).
+
+
+Operações de limpeza: execute quaisquer tarefas de limpeza necessárias antes que o objeto seja destruído.
+
+
+Invocação implícita vs. explícita : Destruidores são chamados automaticamente quando um objeto sai do escopo. Se um objeto é criado com newseu destruidor é chamado explicitamente comdelete.

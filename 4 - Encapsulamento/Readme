@@ -1,0 +1,30 @@
+## Encapsulamento:
+
+Encapsulamento em C++ é um conceito fundamental na Programação Orientada a Objetos (POO) que envolve agrupar os dados (atributos/variáveis) e os métodos (funções) em uma única unidade (classe).
+
+
+O funcionamento interno de um objeto fica oculto do mundo exterior, proporcionando acesso controlado aos membros do objeto.
+
+
+O encapsulamento também leva à abstração ou ocultação de dados, razão pela qual a classe é conhecida como tipo de dado abstrato (ADT).
+
+
+## Pontos a serem observados:
+
+Sem encapsulamento: No primeiro exemplo, os membros de dados ( brande year) são públicos, permitindo acesso direto e modificação de fora da classe, o que pode levar a alterações descontroladas e possíveis problemas (por exemplo, estado inconsistente).
+
+Com Encapsulamento: No segundo exemplo, os membros de dados ( brande year) são declarados privados e inacessíveis diretamente de fora da classe. O acesso é fornecido por meio de métodos setter ( setBrand, setYear) e métodos getter ( getBrand, getYear). Dessa forma, os dados internos são encapsulados e só podem ser acessados ​​ou modificados por meio de interfaces controladas.
+
+## Getter and Setter Functions:
+
+Função Getter: esta é uma função especial que nos permite acessar (obter) os membros de dados de uma classe (membros privados e protegidos).
+
+Função Setter: esta é uma função especial que nos permite definir valores para membros de dados de um objeto de uma classe (membros privados e protegidos).
+
+## Vantagens do encapsulamento:
+
+Acesso Controlado (Segurança): Impede a modificação direta de dados internos, garantindo consistência e segurança.
+
+Flexibilidade e manutenibilidade: permite fácil modificação da implementação interna sem afetar o código externo (por exemplo, se a representação de dados internos mudar).
+
+Reutilização: classes encapsuladas podem ser facilmente reutilizadas em diferentes partes de um programa ou programas diferentes, promovendo a reutilização do código.
